@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173") // allow your React dev server
+@CrossOrigin(origins = "http://localhost:5173")
 public class TestController {
 
     @GetMapping("/hello")
